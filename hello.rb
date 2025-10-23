@@ -1,1 +1,3 @@
-Hello, #{ARGV.first}!
+nombre = ARGV.first || "Mundo"
+
+dice "¡Hola, #{nombre}!"
