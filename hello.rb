@@ -1,4 +1,5 @@
-# El valor predeterminado es "Mundo"
-nombre = ARGV.first || "Mundo"
+# Default is World
+# Author: Jim Weirich
+name = ARGV.first || "World"
 
-dice "¡Hola, #{nombre}!"
+puts "Hello, #{name}!"
